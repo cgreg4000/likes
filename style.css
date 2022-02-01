@@ -33,6 +33,20 @@
     margin: 0 auto;
 }
 
+.name-font-size {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: rgb(34, 98, 156);
+}
+
+/* header */
+
 header {
     min-height: 50px;
     color: white;
@@ -40,13 +54,35 @@ header {
     padding: 1em;
 }
 
+/* container h1 */
+
 .container > h1{
     margin: .5em;
     text-align: center;
 }
 
-.name-font-size {
-    font-size: 30px;
+/* container h1 */
+
+aside {
+    min-height: 200px;
+    flex: 5;
+}
+
+aside * {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+/* section */
+
+section {
+    min-height: 200px;
+    flex: 11;
 }
 
 .user {
@@ -63,42 +99,6 @@ button {
     margin-left: 30px;
 }
 
-
 #likes-1, #likes-2, #likes-3 {
     margin-right: .5em;
-}
-
-aside {
-    min-height: 200px;
-    
-    flex: 5;
-}
-
-aside * {
-    display: block;
-    
-    margin: 20px auto;
-    text-align: center;
-}
-
-
-section {
-    min-height: 200px;
-    
-    flex: 11;
-}
-
-img {
-    width: 100px;
-    
-    
-    
-}
-
-p {
-    font-size: 20px;
-}
-
-a {
-    color: rgb(34, 98, 156);
 }

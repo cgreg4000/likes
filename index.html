@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!--Header start-->
+        <header>
+            <h1>Network</h1>
+        </header>
+        <!--Header end-->
+        <h1>Your Feed</h1>
+        <!--Main start-->
+        <main class="flexed-start">
+            <!--Aside start-->
+            <aside class="border">
+                <img src="./Images/user-circle.png" alt="user circle icon">
+                <p><a href="">Add an avatar</a></p>
+                <p class="name-font-size">James Doe</p>
+            </aside>
+            <!--Aside end-->
+            <!--Section start-->
+            <section>
+                <!--User 1 start-->
+                <div class="user border">
+                    <div class="flexed-center mb">
+                        <p class="name-font-size">Neil M</p>
+                        <div class="flexed-center">
+                            <p id="likes-1">0</p>
+                            <p>like(s)</p>
+                            <button onclick="increment_1()">Like</button>
+                        </div>
+                    </div>
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="">link</a></p>
+                </div>
+                <!--User 1 end-->
+                <!--User 2 start-->
+                <div class="user border">
+                    <div class="flexed-center mb">
+                        <p class="name-font-size">Nichole K</p>
+                        <div class="flexed-center">
+                            <p id="likes-2">0</p>
+                            <p>like(s)</p>
+                            <button onclick="increment_2()">Like</button>
+                        </div>
+                    </div>
+                    <p>Just finished my <a href="">next comic</a>, check it out.</p>
+                </div>
+                <!--User 2 end-->
+                <!--User 3 start-->
+                <div class="user border">
+                    <div class="flexed-center mb">
+                        <p class="name-font-size">Jim R</p>
+                        <div class="flexed-center">
+                            <p id="likes-3">0</p>
+                            <p>like(s)</p>
+                            <button onclick="increment_3()">Like</button>
+                        </div>
+                    </div>
+                    <p>I can't stop listening to the <a href="">new album</a>. Who else is liking it?</p>
+                </div>
+                <!--User 3 end-->
+            </section>
+            <!--Section end-->
+        </main>
+        <!--Main end-->
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
